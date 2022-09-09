@@ -41,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/public/CV_Stepan Slyvka_Junior Front-end Developer.pdf",
+      href: "/CV_Stepan Slyvka_Junior Front-end Developer.pdf",
       style: "rounded-br-md",
       download: true,
     },
