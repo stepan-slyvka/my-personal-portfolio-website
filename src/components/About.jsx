@@ -24,14 +24,14 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-[110vh] bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <motion.div
         ref={ref}
         variants={boxVariant}
         initial="hidden"
         animate={control}
-        className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full"
+        className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-[85%]"
       >
         <div className="pb-8 text-center">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
@@ -44,7 +44,7 @@ const About = () => {
           studying at Uzhhorod National University 👨‍🎓. I've got Bachelor's
           Degree in International Law and soon will get Master's Degree. My
           hobbies are: gym 💪, watching the movies 🎦, computer games 🎮. And
-          also like to walk with my friends 🚶‍♂️.
+          also I like to walk with my friends 🚶‍♂️.
         </p>
 
         <br />
@@ -53,11 +53,11 @@ const About = () => {
           How do I started to learn front-end? Interesting question 🤔. From my
           childhood I always liked to learn something new in computer
           technologies and now when I grow up I've decided to try myself in a
-          front-end development 🧑. So 3 years ago I was watching some videos on
-          YouTube on how to code HTML and CSS, but then I thought that maybe
-          It's not mine and I should concentrate on studying at university 🤷‍♂️.
-          After that, COVID-19 happened and I thought that it's perfect time to
-          learn front-end. I bought some courses on Udemy and everything was
+          front-end development 🧑. So, 3 years ago, I was watching some videos
+          on YouTube on how to code HTML and CSS, but then I thought that maybe
+          It's not mine and I should concentrate on studying at the university
+          🤷‍♂️. After that, COVID-19 happened and I thought that it's perfect time
+          to learn front-end. I bought some courses on Udemy and everything was
           fine 😌. I've learned technologies like: HTML/CSS, JS, React.js, Git
           and Github, etc. So, now I'm ready to try my best in front-end
           development 😉.

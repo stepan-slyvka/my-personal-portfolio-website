@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b 
+      className="h-[110vh] w-full bg-gradient-to-b 
         from-black to-gray-800 via-black"
     >
       <motion.div
@@ -44,7 +44,7 @@ const Home = () => {
         variants={boxVariant}
         initial="hidden"
         animate={control}
-        className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row"
+        className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-[85%] px-4 md:flex-row"
       >
         <div className="flex flex-col justify-center h-full lg:mr-12 w-[100%]">
           <h2 className="text-3xl sm:text-5xl font-bold text-white">

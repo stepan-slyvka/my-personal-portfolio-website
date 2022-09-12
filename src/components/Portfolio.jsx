@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 
-import EdgeLedger from "../assets/portfolio/EdgeLedger.jpg";
-import ExpensesTracker from "../assets/portfolio/Expenses-tracker.jpg";
 import GymWebsite from "../assets/portfolio/Gym-website.jpg";
 import Isomorphic from "../assets/portfolio/Isomorphic.jpg";
 import PortfolioImg from "../assets/portfolio/Portfolio.jpg";
@@ -36,51 +34,39 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: EdgeLedger,
-      code: "https://github.com/stepan-slyvka/edgeledger",
-      demo: "https://my-edge-ledger-website.netlify.app/",
-    },
-    {
-      id: 2,
-      src: ExpensesTracker,
-      code: "https://github.com/stepan-slyvka/expenses-tracker",
-      demo: "https://my-own-expenses-tracker.netlify.app/",
-    },
-    {
-      id: 3,
-      src: GymWebsite,
-      code: "https://github.com/stepan-slyvka/gym-website",
-      demo: "https://responsive-gym-website.netlify.app/",
-    },
-    {
-      id: 4,
       src: Isomorphic,
       code: "https://github.com/stepan-slyvka/test-project",
       demo: "https://isomorphic.netlify.app/",
     },
     {
-      id: 5,
-      src: PortfolioImg,
-      code: "https://github.com/stepan-slyvka/portfolio-example",
-      demo: "https://example-portfolio-website.netlify.app/",
-    },
-    {
-      id: 6,
-      src: Quotes,
-      code: "https://github.com/stepan-slyvka/write-your-quotes",
-      demo: "https://adding-some-quotes.netlify.app/quotes",
-    },
-    {
-      id: 7,
+      id: 2,
       src: RestaurantMenu,
       code: "https://github.com/stepan-slyvka/restaurant-menu-order-app",
       demo: "https://my-restaurant-menu-website.netlify.app/",
     },
     {
-      id: 8,
+      id: 3,
+      src: Quotes,
+      code: "https://github.com/stepan-slyvka/write-your-quotes",
+      demo: "https://adding-some-quotes.netlify.app/quotes",
+    },
+    {
+      id: 4,
       src: Todos,
       code: "https://github.com/stepan-slyvka/add-and-delete-todos-ts",
       demo: "https://adding-todos-typescript.netlify.app/",
+    },
+    {
+      id: 5,
+      src: GymWebsite,
+      code: "https://github.com/stepan-slyvka/gym-website",
+      demo: "https://responsive-gym-website.netlify.app/",
+    },
+    {
+      id: 6,
+      src: PortfolioImg,
+      code: "https://github.com/stepan-slyvka/portfolio-example",
+      demo: "https://example-portfolio-website.netlify.app/",
     },
   ];
 
@@ -103,7 +89,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
@@ -112,7 +98,7 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="px-3 py-3 m-3 duration-200 hover:scale-105 hover:border-b-4 md:w-1/2">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:border-b-4">
                   <a
                     href={demo}
                     target="_blank"
@@ -122,7 +108,7 @@ const Portfolio = () => {
                     Demo <TbWorld className="pl-1 w-fit self-center" />
                   </a>
                 </button>
-                <button className="px-3 py-3 m-3 duration-200 hover:scale-105 hover:border-b-4 md:w-1/2">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:border-b-4">
                   <a
                     href={code}
                     target="_blank"
