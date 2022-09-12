@@ -33,13 +33,13 @@ const About = () => {
         animate={control}
         className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-[85%]"
       >
-        <div className="pb-8 text-center">
+        <div className="pb-4 text-center">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
 
-        <p className="text-xl mt-20">
+        <p className="text-base mt-8">
           Hi 👋, My name is Stepan Slyvka. I'm 22 years old. Currently I'm
           studying at Uzhhorod National University 👨‍🎓. I've got Bachelor's
           Degree in International Law and soon will get Master's Degree. My
@@ -49,7 +49,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl">
+        <p className="text-base">
           How do I started to learn front-end? Interesting question 🤔. From my
           childhood I always liked to learn something new in computer
           technologies and now when I grow up I've decided to try myself in a

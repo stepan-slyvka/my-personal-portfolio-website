@@ -10,7 +10,7 @@ import { motion, useAnimation } from "framer-motion";
 
 import { useInView } from "react-intersection-observer";
 
-const Home = () => {
+const Home = (props) => {
   const [showTyping, setShowTyping] = useState(false);
 
   setTimeout(() => {
@@ -44,12 +44,12 @@ const Home = () => {
         variants={boxVariant}
         initial="hidden"
         animate={control}
-        className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-[85%] px-4 md:flex-row"
+        className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row"
       >
         <div className="flex flex-col justify-center h-full lg:mr-12 w-[100%]">
           <h2 className="text-3xl sm:text-5xl font-bold text-white">
             I'm a
-            {showTyping && (
+            {showTyping && !props.nav && (
               <Typewriter
                 options={{
                   strings: [

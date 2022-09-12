@@ -15,6 +15,7 @@ import { Link } from "react-scroll";
 
 function App() {
   const [showTopBtn, setShowTopBtn] = useState(false);
+  const [nav, setNav] = useState(false);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -26,11 +27,19 @@ function App() {
     });
   }, []);
 
+  const toggleNav = () => {
+    setNav(!nav);
+  };
+
+  const closeNav = () => {
+    setNav(false);
+  };
+
   return (
     <>
       <main>
-        <NavBar />
-        <Home />
+        <NavBar toggleNav={toggleNav} nav={nav} closeNav={closeNav} />
+        <Home nav={nav} />
         <About />
         <Portfolio />
         <Experience />
