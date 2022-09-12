@@ -48,15 +48,14 @@ const Home = (props) => {
       >
         <div className="flex flex-col justify-center h-full lg:mr-12 w-[100%]">
           <h2 className="text-3xl sm:text-5xl font-bold text-white">
-            I'm a
             {showTyping && !props.nav && (
               <Typewriter
                 options={{
                   strings: [
-                    "Front-end Developer 💻",
-                    "HTML/CSS Coder 🙋‍♂️",
-                    "React.js Developer 👦",
-                    "Student 👨‍🎓",
+                    "I'm a Front-end Developer",
+                    "I'm a HTML/CSS Coder",
+                    "I'm a React.js Developer",
+                    "I'm a Student",
                   ],
                   autoStart: true,
                   loop: true,
