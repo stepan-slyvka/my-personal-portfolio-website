@@ -45,7 +45,7 @@ function App() {
         <Experience />
         <Contact />
         <SocialLinks />
-        {showTopBtn && (
+        {showTopBtn && !nav && (
           <Link to="home" smooth={true} duration={500}>
             <div
               className="fixed right-6 bottom-[10%] inline-flex p-3 text-xl z-10 
