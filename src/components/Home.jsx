@@ -53,7 +53,7 @@ const Home = (props) => {
                 options={{
                   strings: [
                     "I'm a Front-end Developer",
-                    "I'm a HTML/CSS Coder",
+                    "I'm an HTML/CSS Coder",
                     "I'm a React.js Developer",
                     "I'm a Student",
                   ],

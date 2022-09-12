@@ -48,7 +48,7 @@ const Portfolio = () => {
       id: 3,
       src: Quotes,
       code: "https://github.com/stepan-slyvka/write-your-quotes",
-      demo: "https://adding-some-quotes.netlify.app/quotes",
+      demo: "https://adding-some-quotes.netlify.app",
     },
     {
       id: 4,
