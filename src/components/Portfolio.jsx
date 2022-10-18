@@ -5,7 +5,7 @@ import Isomorphic from "../assets/portfolio/Isomorphic.jpg";
 import PortfolioImg from "../assets/portfolio/Portfolio.jpg";
 import Quotes from "../assets/portfolio/Quotes.jpg";
 import RestaurantMenu from "../assets/portfolio/Restaurant-menu.jpg";
-import Todos from "../assets/portfolio/todos.jpg";
+import Church from "../assets/portfolio/church.jpg";
 
 import { FaGithub } from "react-icons/fa";
 import { TbWorld } from "react-icons/tb";
@@ -52,9 +52,9 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: Todos,
-      code: "https://github.com/stepan-slyvka/add-and-delete-todos-ts",
-      demo: "https://adding-todos-typescript.netlify.app/",
+      src: Church,
+      code: "https://github.com/stepan-slyvka/church-website",
+      demo: "https://www.ndavydkovo-church.com/",
     },
     {
       id: 5,

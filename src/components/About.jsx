@@ -60,7 +60,8 @@ const About = () => {
           to learn front-end. I bought some courses on Udemy and everything was
           fine 😌. I've learned technologies like: HTML/CSS, JS, React.js, Git
           and Github, etc. So, now I'm ready to try my best in front-end
-          development 😉.
+          development 😉 P.S. Recently I was paid for my first real
+          project(church website which can be seen in Portfolio section).
         </p>
       </motion.div>
     </div>
